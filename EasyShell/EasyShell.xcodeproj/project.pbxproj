@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C54662721E5B1A8006D0C5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54662621E5B1A8006D0C5C /* AppDelegate.m */; };
+		0C54662A21E5B1A8006D0C5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54662921E5B1A8006D0C5C /* ViewController.m */; };
+		0C54662D21E5B1A8006D0C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C54662B21E5B1A8006D0C5C /* Main.storyboard */; };
+		0C54662F21E5B1A9006D0C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C54662E21E5B1A9006D0C5C /* Assets.xcassets */; };
+		0C54663221E5B1A9006D0C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C54663021E5B1A9006D0C5C /* LaunchScreen.storyboard */; };
+		0C54663521E5B1A9006D0C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54663421E5B1A9006D0C5C /* main.m */; };
+		0C54663F21E5B1AA006D0C5C /* EasyShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54663E21E5B1AA006D0C5C /* EasyShellTests.m */; };
+		0C54664A21E5B1AA006D0C5C /* EasyShellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54664921E5B1AA006D0C5C /* EasyShellUITests.m */; };
+		240424B6E32B150C42E9DB2E /* libPods-EasyShell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E90FBDE230BFE21CABC7A69 /* libPods-EasyShell.a */; };
+		4E7AEB75DA1088D3EA792873 /* libPods-EasyShellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D74745BDB0BCF3E38DD27C /* libPods-EasyShellTests.a */; };
+		52ABE5C1AA21CBD2FD53ACE9 /* libPods-EasyShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C670EE9D5FC07C5C97E4FE /* libPods-EasyShellUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C54663B21E5B1AA006D0C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C54661A21E5B1A8006D0C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C54662121E5B1A8006D0C5C;
+			remoteInfo = EasyShell;
+		};
+		0C54664621E5B1AA006D0C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C54661A21E5B1A8006D0C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C54662121E5B1A8006D0C5C;
+			remoteInfo = EasyShell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C54662221E5B1A8006D0C5C /* EasyShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C54662521E5B1A8006D0C5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C54662621E5B1A8006D0C5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C54662821E5B1A8006D0C5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C54662921E5B1A8006D0C5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C54662C21E5B1A8006D0C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C54662E21E5B1A9006D0C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C54663121E5B1A9006D0C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C54663321E5B1A9006D0C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C54663421E5B1A9006D0C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C54663A21E5B1AA006D0C5C /* EasyShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C54663E21E5B1AA006D0C5C /* EasyShellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyShellTests.m; sourceTree = "<group>"; };
+		0C54664021E5B1AA006D0C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C54664521E5B1AA006D0C5C /* EasyShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyShellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C54664921E5B1AA006D0C5C /* EasyShellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyShellUITests.m; sourceTree = "<group>"; };
+		0C54664B21E5B1AA006D0C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F04C5DFF8BF07F7E9F9770D /* Pods-EasyShellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShellTests/Pods-EasyShellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62D74745BDB0BCF3E38DD27C /* libPods-EasyShellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyShellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		822754DB63C59EE97A3B4022 /* Pods-EasyShellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShellUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShellUITests/Pods-EasyShellUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E90FBDE230BFE21CABC7A69 /* libPods-EasyShell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyShell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1B3E69292B3C1A07D32626 /* Pods-EasyShell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShell.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShell/Pods-EasyShell.release.xcconfig"; sourceTree = "<group>"; };
+		9FD73544EC60760F71B523F2 /* Pods-EasyShellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShellTests/Pods-EasyShellTests.release.xcconfig"; sourceTree = "<group>"; };
+		A06D68B9AC5189FBD5F8E7F4 /* Pods-EasyShellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShellUITests/Pods-EasyShellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B948B978C990DFC19ABD591C /* Pods-EasyShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyShell/Pods-EasyShell.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C670EE9D5FC07C5C97E4FE /* libPods-EasyShellUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyShellUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C54661F21E5B1A8006D0C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240424B6E32B150C42E9DB2E /* libPods-EasyShell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54663721E5B1AA006D0C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7AEB75DA1088D3EA792873 /* libPods-EasyShellTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54664221E5B1AA006D0C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABE5C1AA21CBD2FD53ACE9 /* libPods-EasyShellUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C54661921E5B1A8006D0C5C = {
+			isa = PBXGroup;
+			children = (
+				0C54662421E5B1A8006D0C5C /* EasyShell */,
+				0C54663D21E5B1AA006D0C5C /* EasyShellTests */,
+				0C54664821E5B1AA006D0C5C /* EasyShellUITests */,
+				0C54662321E5B1A8006D0C5C /* Products */,
+				CCCDC22A7FAD35491D370BF0 /* Pods */,
+				75B9007826CF7B9FC244403C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C54662321E5B1A8006D0C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C54662221E5B1A8006D0C5C /* EasyShell.app */,
+				0C54663A21E5B1AA006D0C5C /* EasyShellTests.xctest */,
+				0C54664521E5B1AA006D0C5C /* EasyShellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C54662421E5B1A8006D0C5C /* EasyShell */ = {
+			isa = PBXGroup;
+			children = (
+				0C54662521E5B1A8006D0C5C /* AppDelegate.h */,
+				0C54662621E5B1A8006D0C5C /* AppDelegate.m */,
+				0C54662821E5B1A8006D0C5C /* ViewController.h */,
+				0C54662921E5B1A8006D0C5C /* ViewController.m */,
+				0C54662B21E5B1A8006D0C5C /* Main.storyboard */,
+				0C54662E21E5B1A9006D0C5C /* Assets.xcassets */,
+				0C54663021E5B1A9006D0C5C /* LaunchScreen.storyboard */,
+				0C54663321E5B1A9006D0C5C /* Info.plist */,
+				0C54663421E5B1A9006D0C5C /* main.m */,
+			);
+			path = EasyShell;
+			sourceTree = "<group>";
+		};
+		0C54663D21E5B1AA006D0C5C /* EasyShellTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C54663E21E5B1AA006D0C5C /* EasyShellTests.m */,
+				0C54664021E5B1AA006D0C5C /* Info.plist */,
+			);
+			path = EasyShellTests;
+			sourceTree = "<group>";
+		};
+		0C54664821E5B1AA006D0C5C /* EasyShellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C54664921E5B1AA006D0C5C /* EasyShellUITests.m */,
+				0C54664B21E5B1AA006D0C5C /* Info.plist */,
+			);
+			path = EasyShellUITests;
+			sourceTree = "<group>";
+		};
+		75B9007826CF7B9FC244403C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E90FBDE230BFE21CABC7A69 /* libPods-EasyShell.a */,
+				62D74745BDB0BCF3E38DD27C /* libPods-EasyShellTests.a */,
+				C4C670EE9D5FC07C5C97E4FE /* libPods-EasyShellUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCDC22A7FAD35491D370BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B948B978C990DFC19ABD591C /* Pods-EasyShell.debug.xcconfig */,
+				9F1B3E69292B3C1A07D32626 /* Pods-EasyShell.release.xcconfig */,
+				5F04C5DFF8BF07F7E9F9770D /* Pods-EasyShellTests.debug.xcconfig */,
+				9FD73544EC60760F71B523F2 /* Pods-EasyShellTests.release.xcconfig */,
+				822754DB63C59EE97A3B4022 /* Pods-EasyShellUITests.debug.xcconfig */,
+				A06D68B9AC5189FBD5F8E7F4 /* Pods-EasyShellUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C54662121E5B1A8006D0C5C /* EasyShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C54664E21E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShell" */;
+			buildPhases = (
+				0D17243B50066BE1B01D3779 /* [CP] Check Pods Manifest.lock */,
+				0C54661E21E5B1A8006D0C5C /* Sources */,
+				0C54661F21E5B1A8006D0C5C /* Frameworks */,
+				0C54662021E5B1A8006D0C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyShell;
+			productName = EasyShell;
+			productReference = 0C54662221E5B1A8006D0C5C /* EasyShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C54663921E5B1AA006D0C5C /* EasyShellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C54665121E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShellTests" */;
+			buildPhases = (
+				11E4F0C16BC23E983707D868 /* [CP] Check Pods Manifest.lock */,
+				0C54663621E5B1AA006D0C5C /* Sources */,
+				0C54663721E5B1AA006D0C5C /* Frameworks */,
+				0C54663821E5B1AA006D0C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C54663C21E5B1AA006D0C5C /* PBXTargetDependency */,
+			);
+			name = EasyShellTests;
+			productName = EasyShellTests;
+			productReference = 0C54663A21E5B1AA006D0C5C /* EasyShellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C54664421E5B1AA006D0C5C /* EasyShellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C54665421E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShellUITests" */;
+			buildPhases = (
+				90EBB620EC05601DCFE96015 /* [CP] Check Pods Manifest.lock */,
+				0C54664121E5B1AA006D0C5C /* Sources */,
+				0C54664221E5B1AA006D0C5C /* Frameworks */,
+				0C54664321E5B1AA006D0C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C54664721E5B1AA006D0C5C /* PBXTargetDependency */,
+			);
+			name = EasyShellUITests;
+			productName = EasyShellUITests;
+			productReference = 0C54664521E5B1AA006D0C5C /* EasyShellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C54661A21E5B1A8006D0C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lianjia;
+				TargetAttributes = {
+					0C54662121E5B1A8006D0C5C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0C54663921E5B1AA006D0C5C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C54662121E5B1A8006D0C5C;
+					};
+					0C54664421E5B1AA006D0C5C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C54662121E5B1A8006D0C5C;
+					};
+				};
+			};
+			buildConfigurationList = 0C54661D21E5B1A8006D0C5C /* Build configuration list for PBXProject "EasyShell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C54661921E5B1A8006D0C5C;
+			productRefGroup = 0C54662321E5B1A8006D0C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C54662121E5B1A8006D0C5C /* EasyShell */,
+				0C54663921E5B1AA006D0C5C /* EasyShellTests */,
+				0C54664421E5B1AA006D0C5C /* EasyShellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C54662021E5B1A8006D0C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C54663221E5B1A9006D0C5C /* LaunchScreen.storyboard in Resources */,
+				0C54662F21E5B1A9006D0C5C /* Assets.xcassets in Resources */,
+				0C54662D21E5B1A8006D0C5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54663821E5B1AA006D0C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54664321E5B1AA006D0C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D17243B50066BE1B01D3779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11E4F0C16BC23E983707D868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyShellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90EBB620EC05601DCFE96015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyShellUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C54661E21E5B1A8006D0C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C54662A21E5B1A8006D0C5C /* ViewController.m in Sources */,
+				0C54663521E5B1A9006D0C5C /* main.m in Sources */,
+				0C54662721E5B1A8006D0C5C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54663621E5B1AA006D0C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C54663F21E5B1AA006D0C5C /* EasyShellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C54664121E5B1AA006D0C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C54664A21E5B1AA006D0C5C /* EasyShellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C54663C21E5B1AA006D0C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C54662121E5B1A8006D0C5C /* EasyShell */;
+			targetProxy = 0C54663B21E5B1AA006D0C5C /* PBXContainerItemProxy */;
+		};
+		0C54664721E5B1AA006D0C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C54662121E5B1A8006D0C5C /* EasyShell */;
+			targetProxy = 0C54664621E5B1AA006D0C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C54662B21E5B1A8006D0C5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C54662C21E5B1A8006D0C5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C54663021E5B1A9006D0C5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C54663121E5B1A9006D0C5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C54664C21E5B1AA006D0C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C54664D21E5B1AA006D0C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C54664F21E5B1AA006D0C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B948B978C990DFC19ABD591C /* Pods-EasyShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C54665021E5B1AA006D0C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1B3E69292B3C1A07D32626 /* Pods-EasyShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C54665221E5B1AA006D0C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F04C5DFF8BF07F7E9F9770D /* Pods-EasyShellTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyShell.app/EasyShell";
+			};
+			name = Debug;
+		};
+		0C54665321E5B1AA006D0C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD73544EC60760F71B523F2 /* Pods-EasyShellTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyShell.app/EasyShell";
+			};
+			name = Release;
+		};
+		0C54665521E5B1AA006D0C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822754DB63C59EE97A3B4022 /* Pods-EasyShellUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyShell;
+			};
+			name = Debug;
+		};
+		0C54665621E5B1AA006D0C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06D68B9AC5189FBD5F8E7F4 /* Pods-EasyShellUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyShellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ke.iOSHostFlutterGallery.EasyShellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyShell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C54661D21E5B1A8006D0C5C /* Build configuration list for PBXProject "EasyShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C54664C21E5B1AA006D0C5C /* Debug */,
+				0C54664D21E5B1AA006D0C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C54664E21E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C54664F21E5B1AA006D0C5C /* Debug */,
+				0C54665021E5B1AA006D0C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C54665121E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C54665221E5B1AA006D0C5C /* Debug */,
+				0C54665321E5B1AA006D0C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C54665421E5B1AA006D0C5C /* Build configuration list for PBXNativeTarget "EasyShellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C54665521E5B1AA006D0C5C /* Debug */,
+				0C54665621E5B1AA006D0C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C54661A21E5B1A8006D0C5C /* Project object */;
+}
